@@ -3,7 +3,7 @@
 **Senior DevOps / Site Reliability Engineer · Infrastructure Team Lead**
 Azure & AKS · Terraform & Ansible · GitLab CI/CD · OpenTelemetry / Prometheus / Grafana · HashiCorp Vault · Agentic SRE
 
-[Web CV](https://ostetsyuk.github.io/) · [Download ATS PDF](https://ostetsyuk.github.io/Oleksiy_Stetsyuk_CV.pdf) · [llms.txt](https://ostetsyuk.github.io/llms.txt) · [LinkedIn](https://www.linkedin.com/in/stetsyuk/) · [Email](mailto:stetsyuk.a@gmail.com)
+[Web CV](https://ostetsyuk.github.io/) · [Download ATS PDF](https://ostetsyuk.github.io/Oleksiy_Stetsyuk_CV.pdf) · [llms.txt](https://ostetsyuk.github.io/llms.txt) · [YouTube · InferenceLab](https://www.youtube.com/@inference_lab) · [LinkedIn](https://www.linkedin.com/in/stetsyuk/) · [Email](mailto:stetsyuk.a@gmail.com)
 
 ---
 
@@ -13,6 +13,11 @@ Azure & AKS · Terraform & Ansible · GitLab CI/CD · OpenTelemetry / Prometheus
 - **GitLab CI Monitor** — internal AKS pipeline-observability platform covering **67 GitLab projects** with Entra ID SSO, BFF sidecar token isolation, Kaniko/Trivy/Helm GitOps delivery.
 - **Zero-Secret Automation** — 11-wave Azure Update Manager patching via Terraform + GitLab CI OIDC federation; HashiCorp Vault AppRole secret rendering.
 - **AI-Assisted SRE (2026)** — self-hosted multi-agent SRE platform (OpenClaw + Prometheus MCP + Living Runbooks + automated evaluation harnesses) on Proxmox VE 9.2 & Tailscale zero-trust mesh.
+
+### Open Source & Technical Courses (2026)
+- **[Claude Code — Project Architect (10 Episodes)](https://www.youtube.com/playlist?list=PLfYLNqowvj9M)** on [InferenceLab](https://www.youtube.com/@inference_lab) + companion repo **[`stetsyuka/pulse-platform`](https://github.com/stetsyuka/pulse-platform)** (10 checkpoint branches `ep01-start` → `ep10-end`: FastAPI, Next.js, Hooks/Secret Shield, Sandboxing, MCP, Agent Swarm, Armored CI/CD).
+- **[Orca Pro-Architect 2026](https://www.youtube.com/playlist?list=PLVXaOBDYT1go)** & **[VS Code Pro-Architect 2026](https://www.youtube.com/playlist?list=PLCbHCtEfN4y4)** — engineering playlists on modern AI-native workflows.
+- **[`ostetsyuk/ostetsyuk.github.io`](https://github.com/ostetsyuk/ostetsyuk.github.io)** — CV-as-Code pipeline (`data/cv.yaml` → GitHub Actions → Astro Web CV + RenderCV/Typst ATS PDF + `/llms.txt` + `/cv.json`).
 
 ### Core Stack
 | Layer | Technologies |
